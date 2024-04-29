@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tNa01NbkfZqiumIfVg/bdCwsOPSjKttXpIe69LQ5XMAj2oZoLQpQwVUYdadW7nsCsp7a864sHqW3aI78EV7vdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\businesslogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NATALIA\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\NATALIA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\NATALIA\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\NATALIA\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\NATALIA\\.nuget\\packages\\serilog.sinks.console\\5.0.1\\serilog.sinks.console.5.0.1.nupkg.sha512",
+    "C:\\Users\\NATALIA\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
