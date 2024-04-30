@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = businesslogic
-build_property.ProjectDir = C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\businesslogic\
+build_property.ProjectDir = C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

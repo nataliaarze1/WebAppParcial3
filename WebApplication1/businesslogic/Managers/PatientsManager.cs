@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using System.Security.Cryptography.X509Certificates;
 using Serilog;
+using businesslogic.Exceptions;
+using businesslogic.Exceptions;
 
 public interface IPatientsManager
 {
@@ -26,9 +28,11 @@ public class StudentManager : IPatientsManager
         _configuration = configuration;
         _patients = new List<Patient>
         {
-            new Patient { Id = 1, Name = "Mario Torrez" },
-            new Patient { Id = 2, Name = "Natalia Arze" },
-            new Patient { Id = 3, Name = "Juan Perez" }
+            new Patient { Id = 1, Name = "Maria Bolio", typeBlood = "O+"},
+            new Patient { Id = 2, Name = "Priscilla Arias", typeBlood = "O+" },
+            new Patient { Id = 3, Name = "Mia Colucci", typeBlood = "A- "},
+            new Patient { Id = 4, Name = "Fernanda Martin", typeBlood = "A- "}
+
         };
     }
 
@@ -45,12 +49,13 @@ public class StudentManager : IPatientsManager
 
     public async Task<Patient> GetPatientByCI(int id)
     {
-       HttpClient client = new HttpClient();
-        HttpResponseMessage response = await client.GetAsync("https://api.restful-api.dev/objects/" + id);
-        string responsebody = await response.Content.ReadAsStringAsync();
-        Log.Information("Response: {0}", responsebody);
-        Patient foundStudent = _patients.Find(s => s.Id == id);
-        return foundStudent;
+        var patient = _patients.FirstOrDefault(s => s.Id == id);
+        if (patient == null)
+        {
+            throw new BackingServicesException("Patient not found");
+        }
+        return patient;
+
     }
 
     public Patient AddPatient(Patient student)

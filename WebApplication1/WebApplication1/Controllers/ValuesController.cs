@@ -26,7 +26,8 @@ namespace WebApplication1.Controllers
         [HttpGet("{id}")]
         public Patient Get(int id)
         {
-            return _patientManager.GetPatientByCI(id).Result;
+            Task<Patient> patient = _patientManager.GetPatientByCI(id);
+            return patient.Result;
         }
 
         [HttpPost]

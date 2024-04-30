@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\businesslogic.csproj": {}
+    "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\businesslogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\businesslogic.csproj": {
+    "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\businesslogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\businesslogic.csproj",
+        "projectUniqueName": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\businesslogic.csproj",
         "projectName": "businesslogic",
-        "projectPath": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\businesslogic.csproj",
+        "projectPath": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\businesslogic.csproj",
         "packagesPath": "C:\\Users\\NATALIA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\obj\\",
+        "outputPath": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NATALIA\\AppData\\Roaming\\NuGet\\NuGet.Config",

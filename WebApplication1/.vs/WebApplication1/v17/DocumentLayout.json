@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\businesslogic\\managers\\patientsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|solutionrelative:businesslogic\\managers\\patientsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\webapplication1\\middleware\\middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\middleware\\middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\webapplication1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\webapplication1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\businesslogic\\managers\\patientsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|solutionrelative:businesslogic\\managers\\patientsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\businesslogic\\exceptions\\backingservicesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|solutionrelative:businesslogic\\exceptions\\backingservicesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\businesslogic\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|solutionrelative:businesslogic\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|solutionrelative:businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\webapplication1\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C65404-32CB-4893-B66D-69B0ABD610AD}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|c:\\users\\natalia\\documents\\certificacioni\\repowebapi\\webapplication1\\businesslogic\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED6E7E5-87FA-486F-8250-981DDAB3FD4D}|businesslogic\\businesslogic.csproj|solutionrelative:businesslogic\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T23:35:53.634Z",
               "IsPinned": true,
@@ -60,91 +60,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "businesslogic.csproj",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\businesslogic.csproj",
+              "DocumentIndex": 5,
+              "Title": "businesslogic",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\businesslogic.csproj",
               "RelativeDocumentMoniker": "businesslogic\\businesslogic.csproj",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\businesslogic.csproj",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\businesslogic.csproj",
               "RelativeToolTip": "businesslogic\\businesslogic.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-26T01:02:12.083Z",
+              "WhenOpened": "2024-04-30T03:40:27.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "BackingServicesException.cs",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\Exceptions\\BackingServicesException.cs",
+              "RelativeDocumentMoniker": "businesslogic\\Exceptions\\BackingServicesException.cs",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\Exceptions\\BackingServicesException.cs",
+              "RelativeToolTip": "businesslogic\\Exceptions\\BackingServicesException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T03:37:21.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Middleware.cs",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\Middleware\\Middleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Middleware\\Middleware.cs",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\Middleware\\Middleware.cs",
+              "RelativeToolTip": "WebApplication1\\Middleware\\Middleware.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAnwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T03:35:59.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\appsettings.Development.json",
               "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-25T00:20:48.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-25T00:20:42.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\Controllers\\ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\WebApplication1\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowDgAAAA2AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAjwB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T00:18:06.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T00:11:17.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PatientsManager.cs",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\Managers\\PatientsManager.cs",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\Managers\\PatientsManager.cs",
               "RelativeDocumentMoniker": "businesslogic\\Managers\\PatientsManager.cs",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\Managers\\PatientsManager.cs",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\Managers\\PatientsManager.cs",
               "RelativeToolTip": "businesslogic\\Managers\\PatientsManager.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAIwDUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T23:33:22.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\Models\\Patient.cs",
+              "DocumentMoniker": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "businesslogic\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\WebApplication1\\businesslogic\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\NATALIA\\Documents\\CertificacionI\\RepoWebApi\\WebApplication1\\businesslogic\\Models\\Patient.cs",
               "RelativeToolTip": "businesslogic\\Models\\Patient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T23:17:33.033Z",
               "EditorCaption": ""

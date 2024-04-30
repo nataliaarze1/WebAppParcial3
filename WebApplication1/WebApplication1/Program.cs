@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Http;
 using businesslogic;
 using Serilog;
 using System.Diagnostics;
+using WebApplication1.Middleware;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration
@@ -27,6 +31,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseExceptionHandlerMiddleware(); // Aquí se usa el middleware personalizado
 app.UseSwagger();
 app.UseSwaggerUI();
 

@@ -11,3 +11,16 @@ C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\businesslogic\obj\Debu
 C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\businesslogic\obj\Debug\net8.0\refint\businesslogic.dll
 C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.pdb
 C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\businesslogic\obj\Debug\net8.0\ref\businesslogic.dll
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\bin\Debug\net8.0\businesslogic.deps.json
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\bin\Debug\net8.0\businesslogic.dll
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\bin\Debug\net8.0\businesslogic.pdb
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.csproj.AssemblyReference.cache
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.AssemblyInfoInputs.cache
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.AssemblyInfo.cs
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.csproj.CoreCompileInputs.cache
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.sourcelink.json
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.dll
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\refint\businesslogic.dll
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.pdb
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\ref\businesslogic.dll
