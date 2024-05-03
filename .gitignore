@@ -1,6 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 
+# Ignorar archivos de objeto generados por la compilación
+obj/
+
+# Ignorar archivos de objeto en la carpeta businesslogic
+../businesslogic/obj/
+
+
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
