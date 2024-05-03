@@ -38,3 +38,5 @@
 2024-05-03 16:51:01.717 -04:00 [INF] Initializing the server in the enviromment QA!!
 2024-05-03 16:51:26.677 -04:00 [INF] Initializing the server in the enviromment QA!!
 2024-05-03 16:51:26.714 -04:00 [INF] The application name is WebAplication Patients QA
+2024-05-03 17:18:35.347 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-03 17:18:35.385 -04:00 [INF] The application name is WebAplication Patients DEV

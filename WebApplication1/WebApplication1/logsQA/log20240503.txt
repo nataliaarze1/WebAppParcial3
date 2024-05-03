@@ -2,3 +2,5 @@
 2024-05-03 16:19:19.239 -04:00 [INF] The application name is 
 2024-05-03 16:51:55.051 -04:00 [INF] Initializing the server in the enviromment QA!!
 2024-05-03 16:51:55.074 -04:00 [INF] The application name is WebAplication Patients QA
+2024-05-03 17:18:01.596 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 17:18:01.651 -04:00 [INF] The application name is WebAplication Patients QA
