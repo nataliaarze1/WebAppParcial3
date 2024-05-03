@@ -33,7 +33,7 @@ namespace WebApplication1.Middleware
         {
             HttpStatusCode statusCode = HttpStatusCode.InternalServerError; // Por defecto, se asume un error interno del servidor
 
-            if (ex is BackingServicesException)
+            if (ex is MyException)
             {
                 statusCode = HttpStatusCode.BadRequest; // Cambiar a un código de estado adecuado según la excepción
             }

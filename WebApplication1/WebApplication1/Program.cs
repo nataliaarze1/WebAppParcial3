@@ -21,13 +21,19 @@ builder.Services.AddSingleton<FilePatientStorage>(provider =>
     return new FilePatientStorage(filePath);
 });
 
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .WriteTo.File(Path.Combine(builder.Configuration["Logging:FileLocation"], "log.txt"), rollingInterval: RollingInterval.Day)
-    .CreateLogger();
-
-Log.Information("Initializing the server!!");
-
+var logConfiguration = new LoggerConfiguration();
+if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
+{
+    logConfiguration.WriteTo.Console();
+    logConfiguration.WriteTo.File(Path.Combine(builder.Configuration["Logging:FileLocation"], "log.txt"), rollingInterval: RollingInterval.Day);
+    Log.Logger = logConfiguration.CreateLogger();
+    Log.Information($"Initializing the server in the enviromment {Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}!!");
+}
+else {
+    logConfiguration.WriteTo.File(Path.Combine(builder.Configuration["Logging:FileLocation"], "log.txt"), rollingInterval: RollingInterval.Day);
+    Log.Logger = logConfiguration.CreateLogger();
+    Log.Information($"Initializing the server in the enviromment {Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}!!");
+}
 
 // Add services to the container.
 builder.Services.AddControllers();
