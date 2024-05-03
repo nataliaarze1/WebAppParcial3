@@ -6,3 +6,4 @@
 2024-05-03 11:32:27.066 -04:00 [INF] Initializing the server in the enviromment QA
 2024-05-03 11:33:23.461 -04:00 [INF] Initializing the server in the enviromment QA
 2024-05-03 11:35:17.042 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 11:43:25.999 -04:00 [INF] Initializing the server in the enviromment QA!!
