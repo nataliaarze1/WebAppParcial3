@@ -1,8 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 # Ignorar archivos de índice de contenido en .vs/WebApplication1/FileContentIndex/
-
 .vs/WebApplication1/FileContentIndex/*.vsidx
+
+# Archivos específicos de Visual Studio
+*.suo
+.vs/
+*.bin/
+*.obj/
 
 # Ignorar archivos de cache en obj/Debug/net8.0/
 obj/Debug/net8.0/*.csproj.AssemblyReference.cache
