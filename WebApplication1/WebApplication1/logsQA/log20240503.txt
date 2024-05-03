@@ -1,20 +1,4 @@
-2024-05-03 01:00:34.546 -04:00 [INF] Initializing the server!!
-2024-05-03 09:26:50.453 -04:00 [INF] Initializing the server!!
-2024-05-03 11:26:25.346 -04:00 [INF] Initializing the server!!
-2024-05-03 11:28:53.959 -04:00 [INF] Initializing the server!!
-2024-05-03 11:30:54.410 -04:00 [INF] Initializing the server!!
-2024-05-03 11:32:27.066 -04:00 [INF] Initializing the server in the enviromment QA
-2024-05-03 11:33:23.461 -04:00 [INF] Initializing the server in the enviromment QA
-2024-05-03 11:35:17.042 -04:00 [INF] Initializing the server in the enviromment QA!!
-2024-05-03 11:43:25.999 -04:00 [INF] Initializing the server in the enviromment QA!!
-2024-05-03 13:04:34.076 -04:00 [INF] Initializing the server in the enviromment QA!!
-2024-05-03 13:10:40.596 -04:00 [INF] Initializing the server in the enviromment QA!!
-2024-05-03 13:11:24.370 -04:00 [INF] Initializing the server in the enviromment QA!!
-2024-05-03 13:13:56.399 -04:00 [INF] Initializing the server in the environment QA!!
-2024-05-03 13:14:55.861 -04:00 [INF] Initializing the server in the environment QA!!
-2024-05-03 13:16:20.411 -04:00 [INF] Initializing the server in the environment QA!!
-2024-05-03 13:26:18.143 -04:00 [INF] Initializing the server in the environment QA!!
-2024-05-03 13:30:43.420 -04:00 [INF] Initializing the server in the environment QA!!
-2024-05-03 13:30:43.465 -04:00 [INF] Application name: WebAplication Patients QA
-2024-05-03 13:30:49.124 -04:00 [INF] Initializing the server in the environment QA!!
-2024-05-03 13:30:49.188 -04:00 [INF] Application name: WebAplication Patients QA
+2024-05-03 16:19:19.205 -04:00 [INF] Initializing the server in the environment QA!!
+2024-05-03 16:19:19.239 -04:00 [INF] The application name is 
+2024-05-03 16:51:55.051 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 16:51:55.074 -04:00 [INF] The application name is WebAplication Patients QA

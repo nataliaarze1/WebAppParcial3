@@ -1,0 +1,40 @@
+2024-05-03 16:21:44.288 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:21:44.331 -04:00 [INF] The application name is 
+2024-05-03 16:23:07.740 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:23:07.784 -04:00 [INF] The application name is 
+2024-05-03 16:25:55.783 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:25:55.834 -04:00 [INF] The application name is 
+2024-05-03 16:26:39.169 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:26:39.204 -04:00 [INF] The application name is 
+2024-05-03 16:27:01.384 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:27:01.432 -04:00 [INF] The application name is 
+2024-05-03 16:28:06.299 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:28:06.346 -04:00 [INF] The application name is 
+2024-05-03 16:29:26.041 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:29:26.074 -04:00 [INF] The application name is 
+2024-05-03 16:32:01.436 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:32:01.472 -04:00 [INF] The application name is 
+2024-05-03 16:32:57.566 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:32:57.614 -04:00 [INF] The application name is 
+2024-05-03 16:34:06.464 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:34:06.499 -04:00 [INF] The application name is 
+2024-05-03 16:34:18.065 -04:00 [INF] Initializing the server in the environment Development!!
+2024-05-03 16:34:18.104 -04:00 [INF] The application name is 
+2024-05-03 16:38:43.618 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-03 16:44:55.913 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-03 16:44:55.952 -04:00 [INF] The application name is 
+2024-05-03 16:45:16.191 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-03 16:45:16.227 -04:00 [INF] The application name is WebAplication Patients DEV
+2024-05-03 16:45:59.704 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-03 16:45:59.743 -04:00 [INF] The application name is WebAplication Patients DEV
+2024-05-03 16:46:36.437 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-03 16:46:36.471 -04:00 [INF] The application name is WebAplication Patients DEV
+2024-05-03 16:47:48.805 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-03 16:47:48.841 -04:00 [INF] The application name is WebAplication Patients DEV
+2024-05-03 16:47:58.329 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 16:48:18.978 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 16:49:48.521 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 16:50:32.484 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 16:51:01.717 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 16:51:26.677 -04:00 [INF] Initializing the server in the enviromment QA!!
+2024-05-03 16:51:26.714 -04:00 [INF] The application name is WebAplication Patients QA

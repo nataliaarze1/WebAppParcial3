@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using businesslogic.Models; // header added
+using System.Threading.Tasks;
 
 namespace WebApplication1.Controllers
 {
@@ -24,10 +25,10 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet("{id}")]
-        public Patient Get(int id)
+        public async Task<IActionResult> Get(int id) // Use async Task<IActionResult>
         {
-            Task<Patient> patient = _patientManager.GetPatientByID(id);
-            return patient.Result;
+            var patient = await _patientManager.GetPatientByCI(id); // Use await
+            return Ok(patient);
         }
 
         [HttpPost]

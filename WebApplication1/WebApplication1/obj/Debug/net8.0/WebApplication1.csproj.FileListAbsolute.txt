@@ -50,9 +50,8 @@ C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\WebApplication1\obj\De
 C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
-C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.json
-C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.QA.json
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettingsDevelopment.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
@@ -103,3 +102,4 @@ C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplicat
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettingsQA.json

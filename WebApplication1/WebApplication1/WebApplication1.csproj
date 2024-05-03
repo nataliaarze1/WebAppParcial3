@@ -7,6 +7,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="logs\**" />
+	  <Compile Remove="NewFolder\**" />
+	  <Content Remove="logs\**" />
+	  <Content Remove="NewFolder\**" />
+	  <EmbeddedResource Remove="logs\**" />
+	  <EmbeddedResource Remove="NewFolder\**" />
+	  <None Remove="logs\**" />
+	  <None Remove="NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Serilog" Version="3.1.1" />
 		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
@@ -19,7 +30,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="NewFolder\" />
+	  <Folder Include="logsQA\" />
 	</ItemGroup>
 
 </Project>
