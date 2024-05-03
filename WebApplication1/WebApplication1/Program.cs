@@ -13,6 +13,13 @@ builder.Configuration
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true, reloadOnChange: true)
     .Build();
+// Agregar la configuración de FilePatientStorage
+builder.Services.AddSingleton<FilePatientStorage>(provider =>
+{
+    var configuration = provider.GetRequiredService<IConfiguration>();
+    var filePath = configuration.GetSection("FileStorage")["PatientDataFilePath"];
+    return new FilePatientStorage(filePath);
+});
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -24,7 +31,7 @@ Log.Information("Initializing the server!!");
 
 // Add services to the container.
 builder.Services.AddControllers();
-builder.Services.AddSingleton<IPatientsManager, StudentManager>();
+builder.Services.AddSingleton<IPatientsManager, PatientManager>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
