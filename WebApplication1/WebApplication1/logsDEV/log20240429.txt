@@ -1,3 +1,0 @@
-2024-04-29 10:15:39.526 -04:00 [INF] Initializing the server!!
-2024-04-29 10:16:02.941 -04:00 [INF] Response: {"id":"1","name":"Google Pixel 6 Pro","data":{"color":"Cloudy White","capacity":"128 GB"}}
-2024-04-29 10:17:02.579 -04:00 [INF] Initializing the server!!
