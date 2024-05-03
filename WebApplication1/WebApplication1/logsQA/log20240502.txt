@@ -1,0 +1,2 @@
+2024-05-02 20:39:59.304 -04:00 [INF] Initializing the server!!
+2024-05-02 23:07:39.028 -04:00 [INF] Initializing the server!!
