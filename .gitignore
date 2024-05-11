@@ -1,6 +1,15 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 
+# Archivos generados durante la compilación de Visual Studio
+WebApplication1/WebApplication1/obj/
+WebApplication1/WebApplication1/bin/
+
+# Otros archivos generados durante la compilación
+WebApplication1.AssemblyInfo.cs
+WebApplication1.AssemblyInfoInputs.cache
+WebApplication1.csproj.AssemblyReference.cache
+
 # Ignorar archivos de objeto generados por la compilación
 obj/
 
