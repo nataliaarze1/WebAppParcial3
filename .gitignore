@@ -1,6 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,dotnetcore,webmethods,django,logtalk,windows
 
+# Archivos de configuración y caché generados por Visual Studio
+.vs/
+WebApplication1/.vs/
+WebApplication1/WebApplication1/bin/
+WebApplication1/WebApplication1/obj/
+
 # Archivos generados durante la compilación de Visual Studio
 WebApplication1/WebApplication1/obj/
 WebApplication1/WebApplication1/bin/
