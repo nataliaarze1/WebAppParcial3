@@ -1,0 +1,6 @@
+2024-05-12 17:34:50.052 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-12 17:34:50.083 -04:00 [INF] The application name is WebAplication Patients DEV
+2024-05-12 17:42:30.921 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-12 17:42:30.959 -04:00 [INF] The application name is WebAplication Patients DEV
+2024-05-12 17:45:42.171 -04:00 [INF] Initializing the server in the enviromment Development!!
+2024-05-12 17:45:42.204 -04:00 [INF] The application name is WebAplication Patients DEV

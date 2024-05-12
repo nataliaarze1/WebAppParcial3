@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using businesslogic.Models; // header added
+using businesslogic.Models; // Asegúrate de tener la referencia adecuada a tus modelos
 using System.Threading.Tasks;
 using businesslogic.Managers;
 
@@ -13,7 +13,7 @@ namespace WebApplication2.Controllers
     {
         private readonly IPatientsManager _patientManager;
 
-        public SampleController(IPatientsManager patientManager)//inyector de dependencias 
+        public SampleController(IPatientsManager patientManager)
         {
             _patientManager = patientManager;
         }
@@ -21,14 +21,18 @@ namespace WebApplication2.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var students = _patientManager.GetAllPatients();
-            return Ok(students);
+            var patients = _patientManager.GetAllPatients();
+            return Ok(patients);
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id) // Use async Task<IActionResult>
+        public async Task<IActionResult> Get(int id)
         {
-            var patient = await _patientManager.GetPatientByCI(id); // Use await
+            var patient = await _patientManager.GetPatientByCI(id);
+            if (patient == null)
+            {
+                return NotFound();
+            }
             return Ok(patient);
         }
 
@@ -65,4 +69,4 @@ namespace WebApplication2.Controllers
             return NoContent();
         }
     }
- }
+}
