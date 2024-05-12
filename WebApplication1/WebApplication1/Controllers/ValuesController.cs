@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using businesslogic.Models; // header added
+using System.Net.Http;
 using System.Threading.Tasks;
+using businesslogic.Models; // Asegúrate de tener la referencia adecuada a tus modelos
 
 namespace WebApplication1.Controllers
 {
@@ -10,58 +11,85 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class SampleController : ControllerBase
     {
-        private readonly IPatientsManager _patientManager;
+        private readonly HttpClient _httpClient;
 
-        public SampleController(IPatientsManager patientManager)//inyector de dependencias 
+        public SampleController(IHttpClientFactory httpClientFactory)
         {
-            _patientManager = patientManager;
+            _httpClient = httpClientFactory.CreateClient();
+            _httpClient.BaseAddress = new Uri("http://localhost:5022/"); // Corrección: URL base de la API de respaldo
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> GetAllPatients()
         {
-            var students = _patientManager.GetAllPatients();
-            return Ok(students);
+            HttpResponseMessage response = await _httpClient.GetAsync("api/patients");
+            if (response.IsSuccessStatusCode)
+            {
+                var patients = await response.Content.ReadAsAsync<IEnumerable<Patient>>();
+                return Ok(patients);
+            }
+            else
+            {
+                return StatusCode((int)response.StatusCode, "Error al recuperar pacientes de la API de respaldo");
+            }
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id) // Use async Task<IActionResult>
+        public async Task<IActionResult> GetPatientById(int id)
         {
-            var patient = await _patientManager.GetPatientByCI(id); // Use await
-            return Ok(patient);
+            HttpResponseMessage response = await _httpClient.GetAsync($"api/patients/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                var patient = await response.Content.ReadAsAsync<Patient>();
+                return Ok(patient);
+            }
+            else
+            {
+                return StatusCode((int)response.StatusCode, "Error al recuperar paciente de la API de respaldo");
+            }
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Patient patient)
+        public async Task<IActionResult> AddPatient([FromBody] Patient patient)
         {
-            if (patient == null)
+            HttpResponseMessage response = await _httpClient.PostAsJsonAsync("api/patients", patient);
+            if (response.IsSuccessStatusCode)
             {
-                return BadRequest("Invalid patient data");
+                var createdPatient = await response.Content.ReadAsAsync<Patient>();
+                return CreatedAtAction(nameof(GetPatientById), new { id = createdPatient.Id }, createdPatient);
             }
-            var createdPatient = _patientManager.AddPatient(patient);
-            return CreatedAtAction(nameof(Get), new { id = createdPatient.Id }, createdPatient);
+            else
+            {
+                return StatusCode((int)response.StatusCode, "Error al agregar paciente en la API de respaldo");
+            }
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] Patient updatedPatient)
+        public async Task<IActionResult> UpdatePatient(int id, [FromBody] Patient updatedPatient)
         {
-            var result = _patientManager.UpdatePatient(id, updatedPatient);
-            if (!result)
+            HttpResponseMessage response = await _httpClient.PutAsJsonAsync($"api/patients/{id}", updatedPatient);
+            if (response.IsSuccessStatusCode)
             {
-                return NotFound("Patient not found");
+                return NoContent();
             }
-            return NoContent();
+            else
+            {
+                return StatusCode((int)response.StatusCode, "Error al actualizar paciente en la API de respaldo");
+            }
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> DeletePatient(int id)
         {
-            var result = _patientManager.DeletePatient(id);
-            if (!result)
+            HttpResponseMessage response = await _httpClient.DeleteAsync($"api/patients/{id}");
+            if (response.IsSuccessStatusCode)
             {
-                return NotFound("Patient not found");
+                return NoContent();
             }
-            return NoContent();
+            else
+            {
+                return StatusCode((int)response.StatusCode, "Error al eliminar paciente en la API de respaldo");
+            }
         }
     }
 }

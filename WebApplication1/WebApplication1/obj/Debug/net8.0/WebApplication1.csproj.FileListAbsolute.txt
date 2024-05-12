@@ -52,16 +52,19 @@ C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\WebApplication1\obj\De
 C:\Users\NATALIA\Documents\CertificacionI\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettingsDevelopment.json
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettingsQA.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\System.Net.Http.Formatting.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.AspNetCore.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
@@ -101,4 +104,3 @@ C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplicat
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
-C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettingsQA.json

@@ -61,6 +61,7 @@ builder.Services.AddControllers();
 builder.Services.AddSingleton<IPatientsManager, PatientManager>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 

@@ -19,7 +19,6 @@ C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslog
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.AssemblyInfoInputs.cache
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.AssemblyInfo.cs
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.csproj.CoreCompileInputs.cache
-C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.sourcelink.json
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\refint\businesslogic.dll
 C:\Users\NATALIA\Documents\CertificacionI\RepoWebApi\WebApplication1\businesslogic\obj\Debug\net8.0\businesslogic.pdb
