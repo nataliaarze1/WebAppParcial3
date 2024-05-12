@@ -17,6 +17,7 @@ namespace WebApplication1.Controllers
         {
             _httpClient = httpClientFactory.CreateClient();
             _httpClient.BaseAddress = new Uri("http://localhost:5022/"); // Corrección: URL base de la API de respaldo
+          
         }
 
         [HttpGet]
@@ -56,7 +57,7 @@ namespace WebApplication1.Controllers
             if (response.IsSuccessStatusCode)
             {
                 var createdPatient = await response.Content.ReadAsAsync<Patient>();
-                return CreatedAtAction(nameof(GetPatientById), new { id = createdPatient.Id }, createdPatient);
+                return CreatedAtAction(nameof(GetPatientById), new { id = createdPatient.CI }, createdPatient);
             }
             else
             {
